@@ -1,0 +1,14 @@
+.top-wall{
+    background-image: url('../images/stu.jpg');
+}
+
+.col-container ul{
+    list-style: none;
+}
+.col-container ul{
+    padding-left: 1em;
+}
+.col-container ul a{
+    padding: 1em 0;
+    display: block;
+}

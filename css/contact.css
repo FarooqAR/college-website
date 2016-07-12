@@ -1,0 +1,54 @@
+#main > h1{
+    text-align: center;
+}
+form .input-wrapper{
+    position: relative;
+    margin: .5em 0;
+}
+form .overlay{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color:rgba(63, 81, 181, 0.1); 
+}
+form input,
+form textarea,
+form button{
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.5em;
+}
+form button{
+    border: none;
+    color: #fff;
+    background-color: #303F9F;
+}
+form button:active{
+    background-color:rgba(63, 81, 181, 0.9);
+}
+form input,
+form textarea{
+    position: relative;
+    box-sizing: border-box;
+    border:0.5px solid rgba(0,0,0,0.1);
+    width: 100%;
+    resize: none;
+    z-index: 9999;
+    background-color: transparent;
+    border-left-width: 2px;
+}
+form input:focus,
+form textarea:focus{
+    border-left-color: #303F9F;
+}
+form .btn-container{
+    text-align: center;
+    
+}
+.content{
+    width: 50%;
+    margin: 0 auto;
+}

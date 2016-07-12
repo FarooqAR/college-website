@@ -1,0 +1,22 @@
+
+.top-wall{
+    background-image: url('../images/academics.jpg');
+}
+.col-container .right nav a:hover{
+    background-color: RGBA(63, 81, 181, 0.2);
+}
+.col-container .right .row.head{
+    font-weight: bold;
+}
+.col-container .row{
+    overflow: auto;
+    border-bottom: 0.5px solid #999;
+}
+.col-container .row .col{
+    width: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+}
+.col-container .row:not(.head):hover{
+    background-color: rgba(0,0,0,0.1);
+}

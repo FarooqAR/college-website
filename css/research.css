@@ -1,0 +1,54 @@
+.top-wall{
+    background-image: url('../images/research.jpg');
+}
+.content{
+    overflow: auto;
+    margin-top: 1em;
+}
+.content > div{
+    float: left;
+}
+.content .left{
+    width: 70%;
+    padding-right: 1em;
+    box-sizing: border-box;
+}
+.content .right{
+    width: 30%;
+}
+.content article{
+    margin-bottom: 1em;
+}
+.content article .header{
+    height: 150px;
+    position: relative;  
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+.content .tech .header{
+    background-image: url('../images/research1.jpg');
+}
+.content .innovation .header{
+    background-image: url('../images/research2.jpg');
+}
+.content .guide .header{
+    background-image: url('../images/research3.jpg');
+}
+.content .right article h2{
+    position: absolute;
+    bottom: 0;
+    min-width: 80%;
+    padding: 0.4em;
+    margin-right: 1em;
+    color: #fff;
+}
+.content .tech h2{
+    background-color: rebeccapurple;
+} 
+.content .innovation h2{
+    background-color: brown;
+} 
+.content .guide h2{
+    background-color: orangered;
+} 

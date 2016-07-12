@@ -1,0 +1,29 @@
+nav ul li{
+    display: inline-block;
+}
+
+.nav-top .menu-toggle-row{
+    display: none;
+}
+
+.nav-top .menu-container ul{
+    width: 100%;
+    float: none;
+    text-align: right;  
+}
+
+.nav-top .menu-container .main-menu-mobile{
+    display: none;
+}
+.nav-top .search-toggle{
+    display: inline-block;
+}
+.nav-top .search{
+    display: none;
+}
+.nav-main{
+    display: block;
+}
+.president-image{
+    width: 40%;
+}
